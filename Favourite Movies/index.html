@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Master DOM Manipulation: Part 1</title>
     <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
         body {
             margin: 0;
             display: flex;
             justify-content: center;
             height: 100vh;
             align-items: center;
+            box-sizing: border-box;
             background-color: rgb(79, 69, 156);
         }
         
@@ -25,18 +31,11 @@
         .container ul {
             background-color: antiquewhite;
             font-size: large;
-        }
-        
-        .container ul .list-items {
             text-decoration: none;
         }
         
         #main-heading {
             color: rgb(229, 216, 231);
-        }
-        
-        .list-items {
-            text-decoration: none;
         }
     </style>
 </head>
@@ -55,6 +54,7 @@
         </ul>
     </div>
 
+    <script src="app.js"></script>
     <script src="script.js"></script>
 </body>
 
